@@ -18,6 +18,9 @@ ldbc_snb_datagen is GPLv3 licensed, to see detailed information about this licen
 * **[Output](https://github.com/ldbc/ldbc_snb_datagen/wiki/Data-Output)**
 * **[Troubleshooting](https://github.com/ldbc/ldbc_snb_datagen/wiki/Troubleshooting)**
 
+For running on Mac OSX you might need to do this :
+zip -d ldbc_snb_datagen-0.2.5-jar-with-dependencies.jar  META-INF/LICENSE
+
 **Datasets**
 
 Publicly available datasets can be found at the LDBC-SNB Amazon Bucket. These datasets are the official SNB datasets and were generated using version 0.2.6. They are available in the three official supported serializers: CSV, CSVMergeForeign and TTL. The bucket is configured in "Requester Pays" mode, thus in order to access them you need a properly set up AWS client.
